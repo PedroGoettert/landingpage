@@ -1,0 +1,28 @@
+:root{
+  --color-blue:  #0106a0;
+  --color-purple:#af00a8;
+  --color-black: #000000;
+  --color-white: #f5f5ef;
+
+  --bg-color-purple: #af00a8aa;
+  --bg-color-gray: #f0f0f0 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+
+  font-family: 'Inter';
+
+  background: linear-gradient(to bottom, #AAAAAA, #000000);
+  color: var(--color-black);
+}
+

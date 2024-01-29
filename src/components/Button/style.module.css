@@ -1,0 +1,25 @@
+.button{
+    font-size: 24px;
+    text-decoration: none;
+    
+    font-weight: 600;
+    border-radius: 15px;
+    background: linear-gradient(to right, var(--color-purple), var(--color-blue));
+      
+    
+    padding: 1rem 1.5rem;
+
+    color: var(--color-white);
+
+    transition: text-shadow 0.3s ease;
+}
+
+.button:hover{
+    text-shadow: 4px 4px 4px rgba(1, 1, 1, 1);
+    border: solid var(--color-white) 1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+
+    -webkit-text-stroke: 0.3px;
+    
+}

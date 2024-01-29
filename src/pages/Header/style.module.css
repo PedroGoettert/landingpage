@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+}
+
+.containerScrolled{
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   opacity: 0.2;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+
+
+}
+
+.navContainer{
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.navContainer li{
+    list-style: none;
+  
+}
+
+.navContainer li a{
+    text-decoration: none;
+    color: var(--color-black);
+
+    padding: 0.25rem 0.5rem;
+     
+}
+
+.navContainer li a:hover{
+color: var(--color-purple);     
+}
+
