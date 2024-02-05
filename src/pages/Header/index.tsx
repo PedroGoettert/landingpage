@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import style from './style.module.css'
 
-import Logo from '../../assets/Logo-mkt-removeBG-black.png'
+import Logo from '../../assets/mkt/Logo-mkt-removeBG-black.png'
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -35,7 +35,7 @@ export function Header() {
             <a href="#About">Sobre a Empresa</a>
           </li>
           <li>
-            <a href="#Client">Clientes</a>
+            <a href="#Clients">Clientes</a>
           </li>
           <li>
             <a href="#Contacts">Contato</a>

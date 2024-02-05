@@ -1,7 +1,7 @@
 import { ContactForm } from '../../components/ContactForm'
 
 import style from './style.module.css'
-import Logo from '../../assets/Logo-mkt-removebg.png'
+import Logo from '../../assets/mkt/Logo-mkt-removebg.png'
 
 export function Contacts() {
   return (

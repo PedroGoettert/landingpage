@@ -48,7 +48,7 @@ export function ContactForm() {
       text === '' ||
       numberPhone === '' ||
       objective === '' ||
-      objective === 'Selecione o seu objetivo'
+      objective === 'Escolha o seu objetivo'
     ) {
       return
     }
@@ -83,7 +83,7 @@ export function ContactForm() {
   }
 
   return (
-    <section>
+    <section id="Contacts">
       <form className={style.container} onSubmit={handleSubmit(createContact)}>
         <div>
           <label htmlFor="name">Nome Completo</label>
@@ -148,8 +148,8 @@ export function ContactForm() {
             onChange={(e) => setObjective(e.target.value)}
             value={objective}
           >
-            <option value="Selecione o seu objetivo">
-              Selecione o seu objetivo
+            <option value="Escolha o seu objetivo">
+              Escolha o seu objetivo
             </option>
 
             <option value="Quero escalar os resultados da minha empresa">
@@ -169,6 +169,7 @@ export function ContactForm() {
         <div>
           <label htmlFor="text">No que podemos lhe ajudar?</label>
           <textarea
+            maxLength={500}
             id="text"
             placeholder="Escreva aqui no que podemos lhe ajudar"
             {...register('text')}

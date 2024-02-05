@@ -4,6 +4,7 @@ import { Contacts } from './pages/Contacts'
 import { Footer } from './pages/Footer'
 
 import style from './App.module.css'
+import { FeedbackContainer } from './pages/FeedbackContainer'
 
 export function App() {
   return (
@@ -12,7 +13,7 @@ export function App() {
 
       <Content />
 
-      <div
+      {/* <div
         style={{
           height: '80vh',
           display: 'flex',
@@ -22,23 +23,11 @@ export function App() {
         id="About"
       >
         <h1>Sobre a Empresa</h1>
-      </div>
+      </div> */}
 
-      <div
-        style={{
-          height: '90vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-        id="Client"
-      >
-        <h1>Clientes</h1>
-      </div>
+      <FeedbackContainer />
 
-      <div id="Contacts">
-        <Contacts />
-      </div>
+      <Contacts />
 
       <Footer />
     </main>
