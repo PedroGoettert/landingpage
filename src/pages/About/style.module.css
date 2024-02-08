@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 5rem;
+    
+}
+
+.titleContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 50vw;
+
+    text-align: center;
+}
+
+.titleContent h1{
+    font-size: 3rem;
+}
+
+.titleContent p{
+    font-size: 1.20rem;
+}
+
+.textSpliter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}

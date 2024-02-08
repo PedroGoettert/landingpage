@@ -1,0 +1,19 @@
+.content{
+    padding: 1rem;
+    width: 70rem;
+    height: 6rem;
+
+    border: solid 1px var(--color-blue);
+    border-radius: 25px;
+
+    font-size: 1.25rem;
+
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+
