@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.formNextLevelContainer{
+    max-width: 40vw;
+    height: 7rem;
+    padding-left: 1rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: rgb(99, 99, 99);
+    border-radius: 25px;
+
+    font-size: 1rem;
+}
+
+.formNextLevelContainer svg{
+    font-size: 3rem;
+    color: var(--color-purple);
+}
+
+.formNextLevelContainer div{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+  
+}
+
+.formNextLevelContainer div p:nth-child(1){ 
+    font-weight: 600;
+}
+
+.formNextLevelContainer div p:nth-child(2){
+    max-width: 30vw;    
+    font-size: 0.90rem;
+}

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import style from './style.module.css'
 
-// import Logo from '../../assets/mkt/Logo-mkt-removeBG-black.png'
+import Logo from '../../assets/mkt/Logo-mkt-removebg-black.png'
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -26,7 +26,7 @@ export function Header() {
   return (
     <header className={scrolled ? style.containerScrolled : style.container}>
       <nav className={style.nav}>
-        {/* <img src={Logo} alt="Logo MKT" height={100} /> */}
+        <img src={Logo} alt="Logo MKT" height={100} />
         <ul className={style.navContainer}>
           <li>
             <a href="#Home">Home</a>

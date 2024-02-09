@@ -4,12 +4,17 @@
     align-items: center;
     
     color: var(--color-purple);
+    font-size: 1.25rem;
     font-weight: 700;
     
     gap: 1rem;
-    font-size: 1.25rem;
+    padding: 1rem;
     margin-bottom: 1rem;
+
+    border: solid var(--color-white) 1px;
+    border-radius: 25px;
     }
+    
     
     .container div{
      display: flex;

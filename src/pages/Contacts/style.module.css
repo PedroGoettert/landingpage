@@ -4,7 +4,7 @@
 
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
 
     color: var(--color-white);
@@ -15,4 +15,17 @@
     width: 5rem;
     height: 5rem;
 }
+
+.contactFormContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contactFormContainer div h1{
+    width: 30vw;
+    text-align: center;
+}
+
 
